@@ -8,7 +8,7 @@
 	
 	// Do some validation
 	if((strlen($name)<=50) && (strlen($email)<=80) && (strlen($message)<=5000)) {
-		$to='jonthebaptist2001@gmail.com';
+		$to='johncollinson2001@gmail.com';
 		$subject='Email from '.$email;
 		$body='Message from '.$name.' ('.$email.'):           '.$message;
 		
