@@ -4,8 +4,11 @@ Options +FollowSymLinks
 	RewriteEngine on  
 	
 	RewriteRule ^img/(.*)$ img/$1 [l]
-	RewriteRule ^ajax/(.*)$ ajax/$1 [l]
+	RewriteRule ^php/(.*)$ php/$1 [l]
 	RewriteRule ^downloads/(.*)$ downloads/$1 [l]
+	RewriteRule ^andy-dukes/(.*)$ andy-dukes/$1 [l]
+	RewriteRule ^canvuz/(.*)$ canvuz/$1 [l]
+	RewriteRule ^pass-the-parcel/(.*)$ pass-the-parcel/$1 [l]
 
 	RewriteRule ^.*$ index.php
 </IfModule>
