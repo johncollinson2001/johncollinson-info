@@ -7,7 +7,7 @@
 </p>
 
 <p>    
-    Over the past 12 years I have worked in a number of industries covering defence, local government and retail. My broad experience gives me the foundations to deliver robust solutions, apply sound working practices and make good decisions in a variety of situations.
+    Over the past 12 years I have worked in a number of industries such as defence, local government and retail. My broad experience gives me the foundations to deliver robust solutions, apply sound working practices and make good decisions.
 </p> 
 
 <P>

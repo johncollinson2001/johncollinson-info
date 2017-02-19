@@ -2,8 +2,6 @@
 	
 ?>
 
-<p>Below are a selection of projects that I have been involved in, both professionally and at home. Please check out my github page for updates/new stuff: <a href="https://github.com/johncollinson2001" target="_blank">https://github.com/johncollinson2001</a></p>
-
 <h2>Pass the Parcel</h2>
 <p>
     Pass the parcel is a 2D platform game written in Unity 3D using C#. 
@@ -33,3 +31,5 @@
     <a href="http://www.dorsetforyou.com/mylocal" target="_blank">My Local</a>
 	<a href="https://github.com/johncollinson2001/geogrid" target="_blank">Geogrid</a>
 </p>
+
+<p>Please check out my github page for updates/new stuff: <a href="https://github.com/johncollinson2001" target="_blank">https://github.com/johncollinson2001</a></p>
