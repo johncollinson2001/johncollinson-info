@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>  
+	RewriteEngine on  
+	
+	RewriteRule ^img/(.*)$ img/$1 [l]
+	RewriteRule ^ajax/(.*)$ ajax/$1 [l]
+	RewriteRule ^downloads/(.*)$ downloads/$1 [l]
+
+	RewriteRule ^.*$ index.php
+</IfModule>
