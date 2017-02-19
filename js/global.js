@@ -41,6 +41,7 @@ var global={
 		contentMenu:'#contentMenu',
 		contentMenuSelected:'.selected',
 		contentMenuLinks:'#contentMenu li a',
+		contentBodyContainer:'#contentBodyContainer',
 		contentBody:'#contentBody',
 		contactLink:'.contactLink a',
 		contactForm:'#contactForm',
@@ -235,8 +236,12 @@ var global={
 		
 		// Animate the page transition
 		animatePageChange:function(newPageHtml){
+			// Set a fixed height on the container
+			var $container = $(global.select.contentBodyContainer);
+			$container.css('height', $container.height());
+			
 			// Slide page out to the right
-			$(global.select.contentBody).animate({left:'550px'}, global.settings.animationSpeed, function() {
+			$(global.select.contentBody).css('position', 'absolute').animate({left:'550px'}, global.settings.animationSpeed, function() {
 				// Remove current content
 				$(this).children().remove();
 				
@@ -248,7 +253,13 @@ var global={
 				$(this).append($page.html());
 				
 				// Slide new page in from the left
-				$(this).animate({left:'0px'}, global.settings.animationSpeed);
+				$(this).animate({left:'0px'}, global.settings.animationSpeed, function() { 
+					// Reset container height back to auto
+					$container.css('height', 'auto');
+					
+					// Remove absolute positioning of content body
+					$(this).css('position', 'initial');
+				});
 			});
 		},
 		
