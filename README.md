@@ -1,1 +1,1 @@
-This repository is the website for my perosnal web site.
+This repository contains the source code for my personal web site.
